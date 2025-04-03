@@ -1,0 +1,16 @@
+img {
+    width: 100%;
+}
+
+.about-us{
+    border-radius: 15px;
+    box-shadow: 0px 0px 1px 0px #d4b4fb;
+    padding: 5px 10px;
+    text-align: center;
+}
+.about-us h1 {
+    font-size: 45px;
+}
+.about-us p {
+    font-size: larger;
+}

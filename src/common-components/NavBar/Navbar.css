@@ -1,0 +1,51 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    position:relative;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    position:absolute;
+    right:25%;
+}
+.nav-links li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+  .nav-links a {
+    text-decoration: none;  /* Remove underline */
+    color: white;          
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  .nav-links a:hover {
+    color: #b374ff; /* Change color on hover */
+  }
+  .icon {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+
+.connect-wallet {
+    background-color: #b374ff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    position:absolute;
+    right:0;
+  }
+  
+  .connect-wallet:hover {
+    background-color: #a05ce6;
+  }
