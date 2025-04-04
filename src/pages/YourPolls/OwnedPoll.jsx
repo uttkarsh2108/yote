@@ -32,7 +32,8 @@ function OwnedPoll({ pollStatus, name }) {
                 <CreatedCandidate cid={1} name="one" desc="one" votes={102} canVote={canVote} />
                 <CreatedCandidate cid={2} name="two" desc="two" votes={150} canVote={canVote} />
             </div>
-            {showAddButton && <button className="add-candidate-btn" onClick={openPopup}>Add Candidate</button>}
+            {showAddButton && <button className="add-candidate-btn btn" onClick={openPopup}>Add Candidate</button>}
+            {showAddButton && <button className="start-poll btn">Start Poll</button>}
             <AddCandidate show={showPopup} onClose={closePopup}/>
         </div>
     );

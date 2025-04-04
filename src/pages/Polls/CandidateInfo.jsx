@@ -6,7 +6,7 @@
             <h4> {props.name}</h4>
             <p> {props.desc}</p>
             <h5> {props.votes}</h5>
-            <button className="vote-btn"> Vote </button>
+            {props.canVote?<button className="vote-btn"> Vote </button>:<div></div>}
         </div>
     );
  }

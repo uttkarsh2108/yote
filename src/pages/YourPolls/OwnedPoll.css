@@ -39,7 +39,7 @@
 .vote-btn :hover{
     background-color: #a05ce6;
 }
-.add-candidate-btn{
+.btn{
     background-color: #b374ff;
     border: none;
     padding: 10px 15px;
@@ -50,7 +50,8 @@
     cursor: pointer;
     transition: background 0.3s;
     max-height: fit-content;
+    margin: 5px;
 }
-.add-candidate-btn :hover{
+.btn :hover{
     background-color: #a05ce6;
 }
