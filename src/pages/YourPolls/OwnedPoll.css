@@ -1,0 +1,56 @@
+.poll{
+    border-radius: 15px;
+    margin: 10px 25px;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 1px 0px #d4b4fb;
+    text-align: left;
+}
+.pollStatus {
+    margin:0px;
+}
+.candidates{
+    display:flex;
+}
+.candidates h4 {
+    margin-right: 20px;
+}
+.candidate-info-box {
+    box-shadow: 0px 0px 1px 0px #d4b4fb;
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.candidate-info-box p {
+    font-size: 10px;
+    margin:0px;
+}
+.vote-btn{
+    background-color: #b374ff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.vote-btn :hover{
+    background-color: #a05ce6;
+}
+.add-candidate-btn{
+    background-color: #b374ff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    max-height: fit-content;
+}
+.add-candidate-btn :hover{
+    background-color: #a05ce6;
+}
