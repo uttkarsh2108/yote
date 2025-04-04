@@ -34,6 +34,7 @@ function OwnedPoll({ pollStatus, name }) {
             </div>
             {showAddButton && <button className="add-candidate-btn btn" onClick={openPopup}>Add Candidate</button>}
             {showAddButton && <button className="start-poll btn">Start Poll</button>}
+            {canVote && <button className="end-poll btn">End Poll</button>}
             <AddCandidate show={showPopup} onClose={closePopup}/>
         </div>
     );
